@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // En local usa localhost:3000, en Vercel usa la URL de Render (variable de entorno)
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://c4tickets-asistencia-tecnicaback.vercel.app/api'
+const BASE_URL = 'https://c4tickets-asistencia-tecnicaback.vercel.app/api'
 
 const api = axios.create({
   baseURL: BASE_URL,
