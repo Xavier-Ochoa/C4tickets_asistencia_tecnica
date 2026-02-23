@@ -14,9 +14,8 @@ app.use(express.json())
 
 // CORS dinámico: acepta localhost en dev y la URL de Vercel en producción
 const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:5174',
-  'http://127.0.0.1:5501',
+  'http://localhost:5173',  
+  'https://c4ticketsasistenciatecnicafront.vercel.app',
   process.env.URL_FRONTEND,
 ].filter(Boolean)
 
