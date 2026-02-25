@@ -16,6 +16,7 @@ app.use(express.json())
 const allowedOrigins = [
   'http://localhost:5173',  
   'https://c4ticketsasistenciatecnicafront.vercel.app',
+  'https://c4-tickets.vercel.app',   
   process.env.URL_FRONTEND,
 ].filter(Boolean)
 
